@@ -34,7 +34,7 @@ $provincias = [
   </head>
 
   <body>
-    <form class="" action="inicio.php" method="POST">
+    <form class="" action="registroPI.php" method="POST">
 
       <div class="">
         <label for=""> Nombre:</label>
