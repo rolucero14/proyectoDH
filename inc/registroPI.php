@@ -8,12 +8,12 @@ $provincias = [
 ];
 
   if($_POST){
-    if(strlend($_POST["nombre"])==0){
+    if(empty($_POST["nombre"])){
     echo "Falta ingresar datos de Nombre <br>";
     }
     // strlend es una función que nos ayuda a contar variables dentro de los datos a completar en este caso es el valor 0, si no se completa envia el dato "Falta ingresar datos de Nombre" //
 
-    if(strlend($_POST["usuario"]) <8 ){
+    if(strlen($_POST["usuario"]) <8 ){
   echo "El usuario debe tener al menos 8 caracteres <br>";
     }
 
