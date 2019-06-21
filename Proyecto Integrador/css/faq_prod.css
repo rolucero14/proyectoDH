@@ -1,0 +1,17 @@
+.oficios {
+  overflow: hidden;
+  margin-top: 150px;
+  }
+h1 {
+
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+}
+.prod_img {
+  height: 150px;
+  width: 150px;
+}

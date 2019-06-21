@@ -1,0 +1,80 @@
+.text_color{
+  color: white;
+  background-color: #6c757d !important;
+}
+
+.carousel-inner{
+  position: absolute;
+}
+ul{
+  text-decoration: none;
+  list-style-type: none;
+  margin: 0;
+/* padding: 0; */
+  padding-right: 32%;
+}
+.dropdown_opt_serv{
+  position: absolute;
+  z-index: 50;
+  left: 38%;
+  top: 300px;
+}
+#logo{
+  height: 85px;
+}
+
+#menu{
+  height: 100px;
+}
+#hamburguer_menu{
+  height: 80px;
+  width: 150px;
+}
+h2{
+  text-align:center;
+  padding-top: 50px;
+}
+.navbar-toggler.toggler-example.blue-gradient{
+  height: 80px;
+  width: 150px;
+}
+.productos{
+  display: flex;
+  flex-direction: column;
+}
+#prods{
+  margin: 90px;
+}
+button img{
+  display: block;
+  width: 100%;
+}
+.d-block.w-100{
+  opacity: 0.3;
+  height: 800px;
+}
+
+.footer.text-center{
+  background-color: blue;
+  font-family: Montserrat,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-weight: 700;
+  text-align: center!important;
+}
+.ban_icon{
+  height: 42px;
+  margin-right: 10px;
+}
+/* Desktop */
+@media (min-width:1025px) {
+.productos{
+  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+.navbar-brand.js-scroll-trigger{
+  margin-right: 45%;
+  margin-left: -6%;
+}
+#register{
+  margin-top: 150px;
+}
+}
